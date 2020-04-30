@@ -36,16 +36,16 @@ ARGES catalogue is maintained by a group of researchers. Can be contacted:
 - Ramiro Logares
 - Yuly López
 ## References<br/>
-1.National Database of Antibiotic Resistant Organisms;.  Available from:
+1. National Database of Antibiotic Resistant Organisms;.  Available from:
 www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/
 .
-2.Alcock BP, Raphenya AR, Lau TTY, Tsang KK, Bouchard M,
+2. Alcock BP, Raphenya AR, Lau TTY, Tsang KK, Bouchard M,
 Edalatmand A, et al.  CARD 2020: antibiotic resistome surveillance with
 the comprehensive antibiotic resistance database.  Nucleic Acids
 Research. 2019 10;48(D1):D517–D525.  Available from:
 https://doi.org/10.1093/nar/gkz935
 .
-3.Lakin SM, Dean C, Noyes NR, Dettenwanger A, Ross AS, Doster E,
+3. Lakin SM, Dean C, Noyes NR, Dettenwanger A, Ross AS, Doster E,
 et al.  MEGARes: an antimicrobial resistance database for high
 throughput sequencing.  Nucleic Acids Research. 2016
 11;45(D1):D574–D580.  Available from:
