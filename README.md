@@ -31,8 +31,23 @@ ARGs catalogue contained 11715 sequences.<br/>
 ## Format<br/>
 Gene entries were named as "AMRG.gc.v3.gene_X" where X represents a unique numerical identifier. In file "AMRG.gc.v3.correspondance.headers" is composed of two columns, the first one determines the original header (previous to unique numerical identifier) and a second column corresponding the numerical identifier in order to be able to know the original name if needed.
 ## ARGES Team<br/>
-ARGES catalogue is maintained by a group of researchers. Can be contacted:<br/>
+ARGES catalogue is maintained by a group of researchers. Can be contacted:
 - Daniel Velasco Guisado
 - Ramiro Logares
 - Yuly López
-
+## References<br/>
+1.National Database of Antibiotic Resistant Organisms;.  Available from:
+www.ncbi.nlm.nih.gov/pathogens/antimicrobial-resistance/
+.
+2.Alcock BP, Raphenya AR, Lau TTY, Tsang KK, Bouchard M,
+Edalatmand A, et al.  CARD 2020: antibiotic resistome surveillance with
+the comprehensive antibiotic resistance database.  Nucleic Acids
+Research. 2019 10;48(D1):D517–D525.  Available from:
+https://doi.org/10.1093/nar/gkz935
+.
+3.Lakin SM, Dean C, Noyes NR, Dettenwanger A, Ross AS, Doster E,
+et al.  MEGARes: an antimicrobial resistance database for high
+throughput sequencing.  Nucleic Acids Research. 2016
+11;45(D1):D574–D580.  Available from:
+https://doi.org/10.1093/nar/gkw1009
+.
