@@ -25,6 +25,14 @@ cassettes that may include parallel information of the transmission of this
 ARGs, it was included all the sequences from INTEGRALL database 
 \cite{integrall}. Composed of 10022 sequences.<br/>
 After concatenating all the sequences from the four databases redundancy 
-was eliminated using a python script. Also sequences shorter than 5 
+was eliminated using a python script that concatenated headers of identical sequences. Also sequences shorter than 5 
 nucleotides and also wrongly annotated were removed. After curation the 
-ARGs catalogue contained 11715 sequences.
+ARGs catalogue contained 11715 sequences.<br/>
+## Format<br/>
+Gene entries were named as "AMRG.gc.v3.gene_X" where X represents a unique numerical identifier. In file "AMRG.gc.v3.correspondance.headers" is composed of two columns, the first one determines the original header (previous to unique numerical identifier) and a second column corresponding the numerical identifier in order to be able to know the original name if needed.
+## ARGES Team<br/>
+ARGES catalogue is maintained by a group of researchers. Can be contacted:<br/>
+-Daniel Velasco Guisado
+-Ramiro Logares
+-Yuly López
+
