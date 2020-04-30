@@ -1,4 +1,5 @@
 # ARGES
+## Folding the catalogue<br/>
 ARGES catalogue is composed by Antibiotic Resistant Gene (ARG) sequences obtained from different 
 databases. 
 First of all, ARGs were obtained from the National Database of 
