@@ -3,7 +3,7 @@
 ARGES catalogue is composed by Antibiotic Resistant Gene (ARG) sequences obtained from different 
 databases. 
 First of all, ARGs were obtained from the National Database of 
-Antibiotic Resistant Organisms (NDARO) [1](#NDARO) using the data version 2019-09-06.1. Composed of 5120 sequences of ARGs.<br/>
+Antibiotic Resistant Organisms (NDARO) \[[1](#NDARO)\] using the data version 2019-09-06.1. Composed of 5120 sequences of ARGs.<br/>
 Once this genes were included, the Comprehensive Antibiotic Resistance 
 Database (CARD) \cite{card} was used to enrich the number of ARGs inside 
 the catalogue. From this database, the selection of the ARGs was hand-
