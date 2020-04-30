@@ -32,7 +32,7 @@ ARGs catalogue contained 11715 sequences.<br/>
 Gene entries were named as "AMRG.gc.v3.gene_X" where X represents a unique numerical identifier. In file "AMRG.gc.v3.correspondance.headers" is composed of two columns, the first one determines the original header (previous to unique numerical identifier) and a second column corresponding the numerical identifier in order to be able to know the original name if needed.
 ## ARGES Team<br/>
 ARGES catalogue is maintained by a group of researchers. Can be contacted:<br/>
--Daniel Velasco Guisado
--Ramiro Logares
--Yuly López
+- Daniel Velasco Guisado
+- Ramiro Logares
+- Yuly López
 
