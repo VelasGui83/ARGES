@@ -25,9 +25,9 @@ cassettes that may include parallel information of the transmission of this
 ARGs, it was included all the sequences from INTEGRALL database 
 \[[4](#INTEGRALL)\]. Composed of 10022 sequences.<br/>
 After concatenating all the sequences from the four databases redundancy 
-was eliminated using a python script that concatenated headers of identical sequences. Also sequences shorter than 5 
-nucleotides and also wrongly annotated were removed. After curation the 
-ARGs catalogue contained 11715 sequences.<br/>
+was eliminated using a python script that concatenated headers of identical sequences. Also sequences shorter than 100bp and containing invalid nucleotides were removed. After curation the 
+ARGs catalogue contained 11423 sequences.<br/>
+Its longest sequence (4,185bp) comes from Meagares database and it is a mutation of the gene *rpoB*. Contrary, the shortest sequence (100bp) comes from INTEGRALL database and it refers to the gene *intI1* from *E.coli*
 ## Format<br/>
 Gene entries were named as "AMRG.gc.v3.gene_X" where X represents a unique numerical identifier. In file "AMRG.gc.v3.correspondance.headers" is composed of two columns, the first one determines the original header (previous to unique numerical identifier) and a second column corresponding the numerical identifier in order to be able to know the original name if needed.
 ## ARGES Team<br/>
