@@ -1,7 +1,7 @@
 # ARGES
 ## Folding the catalogue<br/>
 ARGES catalogue is composed by Antibiotic Resistant Gene (ARG) sequences obtained from different 
-databases. 
+databases. All the sequences can be found in the file "ARGES.gc.v3.geneID.only.headers.fasta"
 First of all, ARGs were obtained from the National Database of 
 Antibiotic Resistant Organisms (NDARO) \[[1](#NDARO)\] using the data version 2019-09-06.1. Composed of 5120 sequences of ARGs.<br/>
 Once this genes were included, the Comprehensive Antibiotic Resistance 
@@ -29,7 +29,9 @@ was eliminated using a python script that concatenated headers of identical sequ
 ARGs catalogue contained 11423 sequences.<br/>
 Its longest sequence (4,185bp) comes from Meagares database and it is a mutation of the gene *rpoB*. Contrary, the shortest sequence (100bp) comes from INTEGRALL database and it refers to the gene *intI1* from *E.coli*.
 ## Format<br/>
-Gene entries were named as "AMRG.gc.v3.gene_X" where X represents a unique numerical identifier. In file "AMRG.gc.v3.correspondance.headers" is composed of two columns, the first one determines the original header (previous to unique numerical identifier) and a second column corresponding the numerical identifier in order to be able to know the original name if needed.
+Gene entries were named as "AMRG.gc.v3.gene_X" where X represents a unique numerical identifier. In file "ARGES.gc.v3.correspondance.headers" is composed of two columns, the first one determines the original header (previous to unique numerical identifier) and a second column corresponding the numerical identifier in order to be able to know the original name if needed.
+## Results<br/>
+Files included in the folder Results include MMseqs2 search of sequences between ARGES catalogue and three marine gene catalogues (Malaspina, Tara Oceans and BBMO).
 ## ARGES Team<br/>
 ARGES catalogue is maintained by a group of researchers. Can be contacted:
 - Daniel Velasco Guisado
