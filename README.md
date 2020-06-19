@@ -25,11 +25,11 @@ cassettes that may include parallel information of the transmission of this
 ARGs, it was included all the sequences from INTEGRALL database 
 \[[4](#INTEGRALL)\]. Composed of 10022 sequences.<br/>
 After concatenating all the sequences from the four databases redundancy 
-was eliminated using a python script (filter_sequences.py that can also be found in the folder "Useful scripts") that first removed sequences shorter than 100bp and then it removed identical sequences concatenating its headers. After curation the 
+was eliminated using a python script (*filter_sequences.py* that can also be found in the folder "Useful scripts") that first removed sequences shorter than 100bp and then it removed identical sequences concatenating its headers. After curation the 
 ARGs catalogue contained 11423 sequences.<br/>
 Its longest sequence (4,185bp) comes from Meagares database and it is a mutation of the gene *rpoB*. Contrary, the shortest sequence (100bp) comes from INTEGRALL database and it refers to the gene *intI1* from *E.coli*.
 ## Format<br/>
-Gene entries were named as "AMRG.gc.v3.gene_X" where X represents a unique numerical identifier. In file "ARGES.gc.v3.correspondance.headers" is composed of two columns, the first one determines the original header (previous to unique numerical identifier) and a second column corresponding the numerical identifier in order to be able to know the original name if needed.
+Gene entries were named as "AMRG.gc.v3.gene_X" where X represents a unique numerical identifier. In file "ARGES.gc.v3.correspondance.headers" is composed of two columns, the first one determines the original header (previous to unique numerical identifier) and a second column corresponding the numerical identifier in order to be able to know the original name if needed this file has been generated using the python script *Catalogue_maker.py* that can be also found in the folder "Useful scripts".
 ## Results<br/>
 Files included in the folder "Results" include MMseqs2 search of sequences, after filtering, between ARGES catalogue and three marine gene catalogues (Malaspina, Tara Oceans and BBMO). Information is in csv format (coma separated values) and can be opened using excel.
 ## ARGES Team<br/>
