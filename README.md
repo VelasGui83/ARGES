@@ -25,7 +25,7 @@ cassettes that may include parallel information of the transmission of this
 ARGs, it was included all the sequences from INTEGRALL database 
 \[[4](#INTEGRALL)\]. Composed of 10022 sequences.<br/>
 After concatenating all the sequences from the four databases redundancy 
-was eliminated using a python script that concatenated headers of identical sequences. Also sequences shorter than 100bp and containing invalid nucleotides were removed. After curation the 
+was eliminated using a python script (filter_sequences.py that can also be found in the folder "Useful scripts") that first removed sequences shorter than 100bp and then it removed identical sequences concatenating its headers. After curation the 
 ARGs catalogue contained 11423 sequences.<br/>
 Its longest sequence (4,185bp) comes from Meagares database and it is a mutation of the gene *rpoB*. Contrary, the shortest sequence (100bp) comes from INTEGRALL database and it refers to the gene *intI1* from *E.coli*.
 ## Format<br/>
