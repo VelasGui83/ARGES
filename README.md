@@ -31,7 +31,7 @@ Its longest sequence (4,185bp) comes from Meagares database and it is a mutation
 ## Format<br/>
 Gene entries were named as "AMRG.gc.v3.gene_X" where X represents a unique numerical identifier. In file "ARGES.gc.v3.correspondance.headers" is composed of two columns, the first one determines the original header (previous to unique numerical identifier) and a second column corresponding the numerical identifier in order to be able to know the original name if needed this file has been generated using the python script *Catalogue_maker.py* that can be also found in the folder "Useful scripts".
 ## Results<br/>
-Files included in the folder "Results" include MMseqs2 search of sequences, after filtering, between ARGES catalogue and three marine gene catalogues (Malaspina, Tara Oceans and BBMO). Information is in csv format (coma separated values) and can be opened using excel.
+Files included in the folder "Results" include MMseqs2 search of sequences, after avoiding redundant hits, between ARGES catalogue and three marine gene catalogues (Malaspina, Tara Oceans and BBMO). Information is in csv format (coma separated values) and can be opened using excel. Also there can be found the abundance tables showing the information used for the ranges creations of Tara Oceans and Malaspina 2010 results. As rows there can be found the 59 different genes ID and as columns the different samples that have been used in the study.
 ## ARGES Team<br/>
 ARGES catalogue is maintained by a group of researchers. Can be contacted:
 - Daniel Velasco Guisado
